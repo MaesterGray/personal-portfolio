@@ -137,7 +137,7 @@ export const navItems = [
       des: "A movie box application that displays trending movies to the user gotten form the open source the movie database api, created using react",
       img: "/project4.png",
       technologies:['React','tmdb-api'],
-      iconLists: ["/react-logo.png", "/tail.svg", "/ts.svg",],
+      iconLists: ["/react-logo.png", "/tail.svg", "/ts.svg","/fm.svg"],
       link: "https://genericmoviebox.netlify.app",
       github_link:'https://github.com/MaesterGray/Movie-Box'
     },
