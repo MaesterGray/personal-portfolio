@@ -22,14 +22,14 @@ import Github from 'lucide-svelte/icons/github';
         >
           <div class="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
             <a href={item.github_link} target="_blank" class=" absolute w-[7%] aspect-square bg-gray-600 rounded-full top-3 right-3 flex z-20 items-center justify-center">
-              <Github />
+              <img src="/git.svg" alt="git" class=" ">
             </a>
-            <!-- <div
+            <div
               class="relative w-full h-full overflow-hidden lg:rounded-3xl"
               style= "backgroundColor: #13162D"
             >
               <img src="/bg.png" alt="bgimg" />
-            </div> -->
+            </div>
             <img
               src={item.img}
               alt="cover"
