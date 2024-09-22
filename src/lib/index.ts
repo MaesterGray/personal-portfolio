@@ -50,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building a University LMS",
       description: "The Inside Scoop",
       class: "md:col-span-3 md:row-span-2",
       imgClass: "absolute right-0 bottom-0 md:w-96 w-60",
