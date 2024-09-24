@@ -127,7 +127,7 @@ export const navItems = [
       img: "/project6.png",
       technologies:['Svelte','firebase'],
       iconLists: ["/svelte-logo.png","/ts.svg","firebase-logo.png" , "/tail.svg"],
-      link: "https://genericmoviebox.netlify.app",
+      link: "https://svelte-expensetracker.netlify.app/",
       github_link:'https://github.com/MaesterGray/Movie-Box'
     },
 
@@ -148,7 +148,7 @@ export const navItems = [
       img: "/project8.png",
       technologies:['React','Three-js'],
       iconLists: [ "/react-logo.png", "/ts.svg", "/three.svg",  "/tail.svg", ],
-      link: "https://github.com/MaesterGray/3d_portfolio",
+      link: "https://mrgray.netlify.app/",
       github_link:'https://github.com/MaesterGray/3d_portfolio'
     },
     
