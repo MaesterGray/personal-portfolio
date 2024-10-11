@@ -42,7 +42,7 @@ import Github from 'lucide-svelte/icons/github';
           </h1>
 
           <p
-            class="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 text-[#BEC1DD] mx-[1vh] my-[0]"
+            class="lg:text-xl lg:font-normal font-light text-sm  text-[#BEC1DD] mx-[1vh] my-[0]"
            
           >
             {item.des}

@@ -74,7 +74,7 @@ export const navItems = [
     {
       id: 1,
       title: "Photostore",
-      des: " This project is a secure, cloud-based photo storage application that allows users to upload, store, and organize their pictures. It features a robust authentication system to ensure that user data remains private and secure. The app offers a simple and intuitive user interface for managing albums, viewing images, and accessing stored content from any device.",
+      des: " This project is a secure, cloud-based photo storage application that allows authorized users to upload, store, and organize their pictures",
       img: "/project1.png",
       technologies:['Svelte','Svelte-kit', 'tailwind-css', 'postgresql', 'supabase', 'typescript'],
       iconLists: ["/svelte-logo.png", "/tail.svg", "/ts.svg", "/postgre-sql-logo.png", "/supabselogo.png"],

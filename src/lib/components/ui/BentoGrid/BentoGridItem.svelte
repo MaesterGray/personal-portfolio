@@ -3,7 +3,6 @@
 import { cn } from '$lib/utils';
 import { Copy } from 'lucide-svelte';
 import lottie from 'lottie-web';
-import { onMount } from 'svelte';
 import GradientBg from '../GradientBg.svelte';
 import animationData from "$lib/data/confetti.json"
 	export let className: string | undefined = undefined;
@@ -15,7 +14,7 @@ import animationData from "$lib/data/confetti.json"
     export let spareImg
     export let img
     const leftLists = ["Svelte", "Express", "Typescript"];
-  const rightLists = ["Sveltekit", "NuxtJS", "GraphQL"];
+  const rightLists = ["Sveltekit", "Firebase", "GraphQL"];
   let copied = false
 
   function handleCopy(){
@@ -34,27 +33,12 @@ rendererSettings:{
  
 
   let copyContainer:HTMLDivElement;
-  // onMount(()=>{
-  //   if(copied){
-  //     lottie.loadAnimation({
-  //     container:copyContainer,
-
-  //     loop:copied,
-  //     autoplay:copied,
-  //     animationData:animationData,
-  //     rendererSettings:{
-  //       preserveAspectRatio:'xMidYMid slice'
-  //     }
-  //   })
-  //   }
-   
-  // })
+  
   
 </script>
 
 <div
 class={cn(
-  // remove p-4 rounded-3xl dark:bg-black dark:border-white/[0.2] bg-white  border border-transparent, add border border-white/[0.1] overflow-hidden relative
   "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 bento-grid-item",
   className
 )}
@@ -106,7 +90,6 @@ class={cn(
       {title}
     </div>
 
-    <!-- {id === 2 && <GridGlobe />} -->
 {#if id ===3}
     
       <div class="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">

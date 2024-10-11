@@ -4,6 +4,6 @@
 
 </script>
 
-<ModeWatcher defaultMode={'system'}/>
+<!-- <ModeWatcher defaultMode={'system'}/> -->
 
 <slot></slot>
